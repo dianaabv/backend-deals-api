@@ -42,8 +42,6 @@ const bcrypt = require('bcryptjs')
 const jwtDecode = require('jwt-decode')
 const mongoose = require('mongoose')
 
-// const gcm = require('node-gcm');
-// const sender = new gcm.Sender('AIzaSyBO67ehwpp2lvZY627-hP_h2w4T5MyQ6Co');
 var admin = require("firebase-admin");
 const CryptoJS = require("crypto-js");
 const fieldEncryption = require('mongoose-field-encryption');
