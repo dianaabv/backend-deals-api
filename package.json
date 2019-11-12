@@ -22,7 +22,7 @@
     "jspdf": "^1.5.3",
     "jwt-decode": "^2.2.0",
     "mobizon": "^1.0.1",
-    "mongoose": "^5.0.0-rc2",
+    "mongoose": "^5.7.5",
     "mongoose-field-encryption": "^1.2.1",
     "node-cron": "^1.2.1",
     "node-notifier": "^5.1.2",
