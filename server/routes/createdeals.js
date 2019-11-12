@@ -46,9 +46,6 @@ const SK = 'mFJH=YR%xZ?8cC'
 const Device = require('../models/device')
 var admin = require("firebase-admin");
 
-// const gcm = require('node-gcm');
-// const sender = new gcm.Sender('AIzaSyBO67ehwpp2lvZY627-hP_h2w4T5MyQ6Co');
-
 function sendPush(user_id, msg,lawid, deal_id){
 //  console.log(typeof(deal_id), lawid,'222222lawid')
 Device.findOne({userid: user_id}).exec((err, upd) => {
